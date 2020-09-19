@@ -9,6 +9,7 @@ body{
     background-color: aquamarine;
 }
 footer{
+    position: sticky;
     margin-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -19,4 +20,9 @@ footer{
     margin-top: 100px;
     background-color: beige;
     border: 2px solid grey;
+}
+.navbar-brand {
+    font-family: 'Ranchers', cursive;
+    background-color:lightblue;
+    color: white;
 }
