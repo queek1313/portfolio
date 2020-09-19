@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Nav bar with text to the right-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Tony Nolan</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,12 +23,38 @@
             <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
           </div>
         </div>
-      </nav> 
-   
-    
-    
-    
-    
+      </nav>
+      <!-- container to hold form-->
+      <div class="container"> 
+        <div class="row">
+            <div class="col-10">
+                <h1> Contact </h1>
+            </div>
+      </div>
+      <!-- form with submit button-->
+            <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+                <div class="form-group">
+                </div>
+            <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Text Area"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Submit</button>   
+        </div>
+      </form>
+        <!-- copyright in footer-->
+     <footer>
+          &copy; Copyright 2020
+      </footer>
+       
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
 </body>
