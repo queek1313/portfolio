@@ -5,12 +5,16 @@ h1{
     border-bottom: 1px solid grey;
 }
 body{
+    height: 100%;
+    margin:0;
     font-family: 'Nanum Gothic', sans-serif;
     background-color: aquamarine;
 }
 footer{
+    position: -webkit-sticky;
     position: sticky;
-    margin-top: 50px;
+    bottom: 0;
+    margin-top: 100px;
     padding-bottom: 50px;
     text-align: center;
     background-color: gray;
@@ -23,8 +27,8 @@ footer{
     background-color: beige;
     border: 2px solid grey;
 }
-.navbar-brand {
+.navbar-brand, #text {
     font-family: 'Ranchers', cursive;
-    background-color:lightblue;
+    background-color:blue;
     color: white;
 }
