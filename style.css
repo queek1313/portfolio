@@ -14,8 +14,19 @@ body{
     background-size: cover;
 }
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: gray;
+    border-top: 3px solid blue;
+}
+#portFoot{
     position: sticky;
     bottom: 0;
+    width: 100%;
     margin-top: 100px;
     padding-bottom: 50px;
     text-align: center;
